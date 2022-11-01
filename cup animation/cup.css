@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #faf0ca;
+
+}
+.cup{
+    height: 210px;
+    width: 220px;
+    border: 10px solid #030303;
+    position: absolute;
+    transform: translate(-50% ,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px 10px 80px 80px;
+    background: url("wave (3).svg") ,url("wave (2).svg");
+background-size:cover;
+background-position: 0 0, 0 0;
+background-repeat: repeat-x;
+animation: coffee 7s infinite linear;
+}
+@keyframes coffee{
+    100%{
+        background-position: -130% 0, 130% 0;
+    }
+}
+.cup:before
+{
+    content: "";
+    height: 80px;
+    width: 60px;
+    position: absolute;
+
+    border: 10px solid #030303;
+    border-left: none;
+    right: -70px;
+    top: 30px;
+    border-radius: 90px 90px ;
+}
+.cup:after{
+    height: 10px;
+    width: 170px;
+    background-color: #030303;
+    position: absolute;
+    content: "";
+    left: 15px;
+    bottom: -16px;
+    border-radius: 10px 10px 0 0 ;
+}
+.bubble{
+    height: 15px;
+    width: 15px;
+    background-color: #fcdd7f;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0.6;
+    animation: bubbles forwards infinite;
+}
+@keyframes bubbles{
+    100%{
+        transform: translateY(-150px);
+        opacity: 0;
+
+    }
+}
+.bubble-1{
+    left: 30px;
+    bottom: 10px;
+    animation-delay: 0.5s;
+    animation-duration: 3s;
+}
+.bubble-2{
+    left: 80px;
+    bottom: 35px;
+    animation-delay: 1.2s;
+    animation-duration: 4s;
+}
+.bubble-3{
+    left: 150px;
+    bottom: 30px;
+    animation-delay: 0.9s;
+    animation-duration: 2s;
+}
