@@ -7,3 +7,4 @@ Feel free to steal the code. :)
 * Rocket orbiting the Moon :dizzy:
 * Animated Tea Cup :beers:
 * Bread and Jam :dizzy:
+* Rainbow animation(also a loader) :art:
