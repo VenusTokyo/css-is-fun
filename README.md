@@ -8,3 +8,4 @@ Feel free to steal the code. :)
 * Animated Tea Cup :beers:
 * Bread and Jam :dizzy:
 * Rainbow animation(also a loader) :art:
+* Record Player that plays Mere Bina with volume control :sparkles:
